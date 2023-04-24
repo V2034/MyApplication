@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="app1">Colour_Change</string>
+    <string name="app2">DiceRoll</string>
+    <string name="app3">ComposeMail</string>
+    <string name="to_mail">To:</string>
+    <string name="subject">Subject:</string>
+    <string name="message">Message</string>
+    <string name="button">Send</string>
+</resources>
