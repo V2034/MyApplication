@@ -10,174 +10,195 @@
     <EditText
         android:id="@+id/edit_text_id"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        />
+        android:layout_height="200dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <Button
                 android:id="@+id/button_one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:text="@string/button_one"
                 android:onClick="calCulate"
-                android:textSize="30sp"/>
+                android:text="@string/button_one"
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="calCulate"
                 android:text="@string/button_two"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="calCulate"
                 android:text="@string/button_three"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_divide"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="calCulate"
                 android:text="@string/button_divide"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <Button
                 android:id="@+id/button_four"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="calCulate"
                 android:text="@string/button_four"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_five"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="calCulate"
                 android:text="@string/button_five"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_six"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="calCulate"
                 android:text="@string/button_six"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_minus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="calCulate"
                 android:text="@string/button_minus"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <Button
                 android:id="@+id/button_seven"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="calCulate"
                 android:text="@string/button_seven"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_eight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="calCulate"
                 android:text="@string/button_eight"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_nine"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="calCulate"
                 android:text="@string/button_nine"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_sum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="calCulate"
                 android:text="@string/button_sum"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:weightSum="10"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="10">
+
             <Button
                 android:id="@+id/button_clear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="2"
+                android:onClick="calCulate"
                 android:text="@string/button_clear"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_zero"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="2"
+                android:onClick="calCulate"
                 android:text="@string/button_zero"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_dot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="2"
+                android:onClick="calCulate"
                 android:text="@string/button_dot"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_multiply"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="2"
+                android:onClick="calCulate"
                 android:text="@string/button_multiply"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/button_equal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="2"
+                android:onClick="calCulate"
                 android:text="@string/button_equal"
-                android:textSize="30sp"
-                android:onClick="calCulate"/>
+                android:textSize="30sp" />
         </LinearLayout>
     </LinearLayout>
 

@@ -43,7 +43,7 @@ class GuessMyNumber : AppCompatActivity() {
     fun successButton(view: View) {
         binding.successTextView.visibility = View.VISIBLE
         binding.questionTextView.visibility = View.INVISIBLE
-        binding.TargetedNumberTextView.visibility=View.VISIBLE
+        binding.TargetedNumberTextView.visibility = View.VISIBLE
         binding.TargetedNumberTextView.text =
             String.format(resources.getString(R.string.Target_number_text_view), number)
     }
@@ -66,9 +66,9 @@ class GuessMyNumber : AppCompatActivity() {
     }
 
     fun resetButton(view: View) {
-        binding.questionTextView.visibility=View.VISIBLE
+        binding.questionTextView.visibility = View.VISIBLE
         binding.questionTextView.text = resources.getString(R.string.first_question)
-        number=5
+        number = 5
         binding.successTextView.visibility = View.INVISIBLE
         binding.TargetedNumberTextView.visibility = View.INVISIBLE
     }

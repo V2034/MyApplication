@@ -10,27 +10,30 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:hint="@string/to_mail"
-        android:textSize="25sp"
-        android:layout_margin="8dp"/>
+        android:textSize="25sp" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:hint="@string/subject"
-        android:textSize="25sp"
-        android:layout_margin="8dp"/>
+        android:textSize="25sp" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="8dp"
         android:layout_weight="1"
-        android:hint="@string/message"
-        android:textSize="25sp"
         android:gravity="top"
-        android:layout_margin="8dp"/>
+        android:hint="@string/message"
+        android:textSize="25sp" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:text="@string/button"
-        android:textSize="25sp"
-        android:layout_margin="8dp"/>
+        android:textSize="25sp" />
 </LinearLayout>
