@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">MyApplication</string>
-    <string name="app1">Colour_Change</string>
+    <string name="app1">TextColourChange</string>
     <string name="app2">DiceRoll</string>
     <string name="app3">ComposeMail</string>
     <string name="to_mail">To:</string>
     <string name="subject">Subject:</string>
     <string name="message">Message</string>
     <string name="button">Send</string>
-    <string name="sucess_text_view">SUCCESS</string>
+    <string name="success_text">SUCCESS</string>
     <string name="Target_number_text_view">Your Number is %d</string>
 
     <string name="first_question">Is Your no. 5?</string>
@@ -18,8 +18,10 @@
     <string name="sixth_question">Is Your no. 7?</string>
     <string name="seventh_question">Is Your no. 9?</string>
     <string name="eighth_question">Is Your no. 8?</string>
-    <string name="nineth_question">Is Your no. 6?</string>
+    <string name="ninth_question">Is Your no. 6?</string>
     <string name="tenth_question">Is Your no. 10?</string>
+
+
     <string name="button_zero">0</string>
     <string name="button_one">1</string>
     <string name="button_two">2</string>

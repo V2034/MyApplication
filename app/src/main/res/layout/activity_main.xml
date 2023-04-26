@@ -7,26 +7,41 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/app1"
+        android:id="@+id/text_colour_change_app_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app1"
 
         android:layout_centerHorizontal="true"/>
     <Button
-        android:id="@+id/app2"
+        android:id="@+id/dice_roll_app_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app2"
 
-        android:layout_below="@+id/app1"
+        android:layout_below="@+id/text_colour_change_app_id"
         android:layout_centerHorizontal="true"/>
     <Button
-        android:id="@+id/app3"
+        android:id="@+id/compose_mail_app_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app3"
 
-        android:layout_below="@+id/app2"
+        android:layout_below="@+id/dice_roll_app_id"
         android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/my_Calculator_app_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MyCalculator"
+        android:layout_below="@+id/compose_mail_app_id"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/Guess_my_number_app_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GuessMyNumber"
+        android:layout_below="@+id/my_Calculator_app_id"
+        android:layout_centerHorizontal="true"/>
+
 </RelativeLayout>

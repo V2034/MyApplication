@@ -7,72 +7,78 @@
     tools:context=".GuessMyNumber">
 
     <TextView
-    android:id="@+id/question_text_view"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:layout_marginStart="8sp"
-    android:layout_marginTop="8sp"
-    android:layout_marginEnd="8sp"
-    android:layout_marginBottom="8sp"
-    android:textSize="30sp"
-    tools:text="Question" />
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginBottom="8sp"
+        android:textSize="30sp"
+        tools:text="Question" />
+
     <TextView
         android:id="@+id/success_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="SUCCESS"
-        android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
+        android:text="@string/success_text"
+        android:textColor="#008B00"
         android:textSize="30sp"
-        android:textColor="#008B00"/>
+        android:visibility="invisible" />
+
     <TextView
-        android:id="@+id/number_text_view"
+        android:id="@+id/Targeted_number_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Your Number is"
         android:layout_below="@+id/success_text_view"
+        android:layout_centerHorizontal="true"
         android:textSize="30sp"
-        android:layout_centerHorizontal="true"/>
+        tools:text="Your Number is" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_above="@+id/reset_button"
+        android:orientation="horizontal"
         android:weightSum="6">
+
         <TextView
             android:id="@+id/down_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DOWN"
-            android:onClick="down_button"
-            android:textSize="30sp"
-            android:textColor="@color/black"
-            android:background="@color/material_dynamic_primary20"
             android:layout_margin="8sp"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:background="@color/material_dynamic_primary20"
+            android:onClick="downButton"
+            android:text="DOWN"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
         <TextView
             android:id="@+id/success_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SUCCESS"
-            android:onClick="sucess_button"
-            android:textColor="@color/black"
-            android:background="@color/material_dynamic_primary20"
-            android:textSize="30sp"
             android:layout_margin="8sp"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:background="@color/material_dynamic_primary20"
+            android:onClick="successButton"
+            android:text="SUCCESS"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
         <TextView
             android:id="@+id/up_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="UP"
-            android:onClick="up_button"
-            android:textColor="@color/black"
-            android:background="@color/material_dynamic_primary20"
-            android:textSize="30sp"
             android:layout_margin="8sp"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:background="@color/material_dynamic_primary20"
+            android:onClick="upButton"
+            android:text="UP"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
     </LinearLayout>
 
     <Button
@@ -80,9 +86,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="8sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginBottom="8sp"
+        android:onClick="resetButton"
         android:text="Reset"
-        android:onClick="reset_button"
-        android:layout_margin="8sp"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
 
 </RelativeLayout>

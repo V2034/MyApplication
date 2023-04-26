@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.TextView
 import kotlin.random.Random
 
-class Text_colour_change : AppCompatActivity() {
+class TextColourChange : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_text_colour_change)

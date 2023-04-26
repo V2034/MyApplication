@@ -24,7 +24,7 @@
             android:name=".ComposeMail"
             android:exported="false" />
         <activity
-            android:name=".Text_colour_change"
+            android:name=".TextColourChange"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
