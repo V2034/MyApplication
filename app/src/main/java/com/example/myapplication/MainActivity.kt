@@ -10,33 +10,33 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var button1:Button=findViewById(R.id.text_colour_change_app_id)
-        var button2:Button=findViewById(R.id.dice_roll_app_id)
-        var button3:Button=findViewById(R.id.compose_mail_app_id)
-        var button4:Button=findViewById(R.id.my_Calculator_app_id)
-        var button5:Button=findViewById(R.id.Guess_my_number_app_id)
+        var button1: Button = findViewById(R.id.text_colour_change_app_id)
+        var button2: Button = findViewById(R.id.dice_roll_app_id)
+        var button3: Button = findViewById(R.id.compose_mail_app_id)
+        var button4: Button = findViewById(R.id.my_Calculator_app_id)
+        var button5: Button = findViewById(R.id.Guess_my_number_app_id)
 
-        button1.setOnClickListener(){
+        button1.setOnClickListener() {
 
-            var intent=Intent(this,TextColourChange::class.java)
+            var intent = Intent(this, TextColourChange::class.java)
             startActivity(intent)
         }
-        button2.setOnClickListener(){
+        button2.setOnClickListener() {
 
-            var intent2=Intent(this,DiceRoll::class.java)
+            var intent2 = Intent(this, DiceRoll::class.java)
             startActivity(intent2)
         }
-        button3.setOnClickListener(){
+        button3.setOnClickListener() {
 
-            var intent3=Intent(this,ComposeMail::class.java)
+            var intent3 = Intent(this, ComposeMail::class.java)
             startActivity(intent3)
         }
-        button4.setOnClickListener(){
-            var intent4=Intent(this,MyCalculator::class.java)
+        button4.setOnClickListener() {
+            var intent4 = Intent(this, MyCalculator::class.java)
             startActivity(intent4)
         }
-        button5.setOnClickListener(){
-            var intent5=Intent(this,GuessMyNumber::class.java)
+        button5.setOnClickListener() {
+            var intent5 = Intent(this, GuessMyNumber::class.java)
             startActivity(intent5)
         }
 
