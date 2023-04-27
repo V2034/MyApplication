@@ -7,9 +7,10 @@
     <string name="subject">Subject:</string>
     <string name="message">Message</string>
     <string name="button">Send</string>
+
+    //Guess My Number
     <string name="success_text">SUCCESS</string>
     <string name="Target_number_text_view">Your Number is %d</string>
-
     <string name="first_question">Is Your no. 5?</string>
     <string name="second_question">Is Your no. 3?</string>
     <string name="third_question">Is Your no. 2?</string>
@@ -21,7 +22,7 @@
     <string name="ninth_question">Is Your no. 6?</string>
     <string name="tenth_question">Is Your no. 10?</string>
 
-
+    //Calculator
     <string name="button_zero">0</string>
     <string name="button_one">1</string>
     <string name="button_two">2</string>
@@ -32,13 +33,19 @@
     <string name="button_seven">7</string>
     <string name="button_eight">8</string>
     <string name="button_nine">9</string>
-
     <string name="button_dot">.</string>
-
     <string name="button_sum">+</string>
     <string name="button_minus">-</string>
     <string name="button_multiply">*</string>
     <string name="button_clear">c</string>
     <string name="button_divide">/</string>
     <string name="button_equal">=</string>
+
+    //Bmi
+    <string name="UnderWeight">(UnderWeight)</string>
+    <string name="Healthy">(Healthy)</string>
+    <string name="Obesity">(Obesity)</string>
+    <string name="OverWeight">(OverWeight)</string>
+    <string name="Your_bmi_is">Your Bmi is %f</string>
+
 </resources>
