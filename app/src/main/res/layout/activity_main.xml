@@ -45,4 +45,26 @@
         android:layout_centerHorizontal="true"
         android:text="GuessMyNumber" />
 
+    <Button
+        android:id="@+id/bmi_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Guess_my_number_app_id"
+        android:layout_centerHorizontal="true"
+        android:text="BMI" />
+    <Button
+        android:id="@+id/number_list_print_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bmi_id"
+        android:layout_centerHorizontal="true"
+        android:text="NumberList"/>
+    <Button
+        android:id="@+id/number_list_app_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NumberListWithAudio"
+        android:layout_below="@+id/number_list_print_id"
+        android:layout_centerHorizontal="true"/>
+
 </RelativeLayout>

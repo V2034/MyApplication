@@ -15,6 +15,9 @@ class MainActivity : AppCompatActivity() {
         var button3: Button = findViewById(R.id.compose_mail_app_id)
         var button4: Button = findViewById(R.id.my_Calculator_app_id)
         var button5: Button = findViewById(R.id.Guess_my_number_app_id)
+        var button6: Button = findViewById(R.id.bmi_id)
+        var button7: Button = findViewById(R.id.number_list_print_id)
+        var button8: Button = findViewById(R.id.number_list_app_id)
 
         button1.setOnClickListener() {
 
@@ -39,7 +42,18 @@ class MainActivity : AppCompatActivity() {
             var intent5 = Intent(this, GuessMyNumber::class.java)
             startActivity(intent5)
         }
-
+        button6.setOnClickListener() {
+            var intent6 = Intent(this, BodyMassIndexCalculation::class.java)
+            startActivity(intent6)
+        }
+        button7.setOnClickListener(){
+            var intent7=Intent(this,ListOfNumberUsingListView::class.java)
+            startActivity(intent7)
+        }
+        button8.setOnClickListener(){
+            var intent8 = Intent(this,NumberListApp::class.java)
+            startActivity(intent8)
+        }
     }
 
 }
